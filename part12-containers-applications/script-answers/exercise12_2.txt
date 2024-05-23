@@ -1,0 +1,20 @@
+Script started on Thu May 23 12:17:51 2024
+Node.js version v21.7.1 detected.
+Odd numbered Node.js versions will not enter LTS status and should not be used for production. For more information, please see https://nodejs.org/en/about/releases/.
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                  ]2;balazskepli@balazss-mbp-2:~/Desktop/FullStackOpen/fullstack-12-docker/part12-containers-applications/script-answers]1;..cript-answers[0m[27m[24m[J[01;32m➜  [36mscript-answers[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[7mdocker container run -it ubuntu bash[27m[36D[27md[27mo[27mc[27mk[27me[27mr[27m [27mc[27mo[27mn[27mt[27ma[27mi[27mn[27me[27mr[27m [27mr[27mu[27mn[27m [27m-[27mi[27mt[27m [27mu[27mb[27mu[27mn[27mt[27mu[27m [27mb[27ma[27ms[27mh[?1l>[?2004l
+]2;docker container run -it ubuntu bash]1;docker[?2004h]0;root@f35908feebcb: /root@f35908feebcb:/# ls
+[?2004l[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;36mlib[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+[?2004h]0;root@f35908feebcb: /root@f35908feebcb:/#  cd usr/src/
+[?2004l[?2004h]0;root@f35908feebcb: /usr/srcroot@f35908feebcb:/usr/src# ls
+[?2004l[?2004h]0;root@f35908feebcb: /usr/srcroot@f35908feebcb:/usr/src# mkdir app
+[?2004l[?2004h]0;root@f35908feebcb: /usr/srcroot@f35908feebcb:/usr/src# ls
+[?2004l[0m[01;34mapp[0m
+[?2004h]0;root@f35908feebcb: /usr/srcroot@f35908feebcb:/usr/src# cd app/
+[?2004l[?2004h]0;root@f35908feebcb: /usr/src/approot@f35908feebcb:/usr/src/app# touch index.js
+[?2004l[?2004h]0;root@f35908feebcb: /usr/src/approot@f35908feebcb:/usr/src/app# ls
+[?2004lindex.js
+[?2004h]0;root@f35908feebcb: /usr/src/approot@f35908feebcb:/usr/src/app# exit
+[?2004lexit
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                  ]2;balazskepli@balazss-mbp-2:~/Desktop/FullStackOpen/fullstack-12-docker/part12-containers-applications/script-answers]1;..cript-answers[0m[27m[24m[J[01;32m➜  [36mscript-answers[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on Thu May 23 12:18:48 2024
