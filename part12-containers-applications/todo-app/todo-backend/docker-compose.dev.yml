@@ -19,6 +19,21 @@ services:
     command: ['redis-server', '--appendonly', 'yes']
     volumes:
       - cache:/data
+  server:
+    container_name: todo-backend-dev
+    image: todo-backend-dev
+    build:
+      context: .
+    command: ['npm', 'run', 'dev']
+    volumes:
+      - ./:/usr/src/app
+    ports:
+      - 3001:3001
+    environment:
+      - REDIS_URL=redis://redis:6379
+      - MONGO_URL=mongodb://the_username:the_password@mongo:27017/the_database
+  debug-helper:
+    image: busybox
 
 volumes:
   mongo_data:
